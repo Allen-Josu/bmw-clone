@@ -1,12 +1,9 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
-
 
 function Footer() {
   return (
     <>
-      <div className="d-flex gap-4 my-4 ps-5 pt-4" style={{borderTop:"1px solid grey"}}>
-        <a style={{ fontSize: "14px", color: "#4d4d4d", fontWeight: "bold", textDecoration: "none" }} href="/dealer">Find your BMW</a>
+      <div className="d-flex gap-4 my-4 ps-5 pt-4" style={{ borderTop: "1px solid grey" }}>
+        <p style={{ textTransform: "uppercase", color: "#4d4d4d", fontSize: "12px", fontWeight: "500" }}>Find Your BMW</p>
         <a style={{ fontSize: "14px", color: "#4d4d4d", fontWeight: "bold", textDecoration: "none" }} href="/dealer">All Models</a>
       </div>
       <div
@@ -44,13 +41,13 @@ function Footer() {
         </div>
         <div className="d-flex pb-5">
         </div>
-        <div className="d-flex justify-content-between">
-          <p className="ms-5">@BMW AG 2024</p>
-          <div className="d-flex justify-content-evenly">
-            <a className="me-3" style={{ fontSize: "14px", color: "#4d4d4d", fontWeight: "bold", textDecoration: "none" }} href="/dealer">Legal Disclaimer/Imprint</a>
-            <a className="me-3" style={{ fontSize: "14px", color: "#4d4d4d", fontWeight: "bold", textDecoration: "none" }} href="/dealer">Legal Disclaimer/Imprint</a>
-            <a className="me-5" style={{ fontSize: "14px", color: "#4d4d4d", fontWeight: "bold", textDecoration: "none" }} href="/dealer">Legal Disclaimer/Imprint</a>
-          </div>
+      </div>
+      <div className="d-flex justify-content-between mt-4">
+        <p className="ms-5">@BMW AG 2024</p>
+        <div className="d-flex justify-content-evenly">
+          <a className="me-3" style={{ fontSize: "14px", color: "#4d4d4d", fontWeight: "bold", textDecoration: "none" }} href="/dealer">Legal Disclaimer/Imprint</a>
+          <a className="me-3" style={{ fontSize: "14px", color: "#4d4d4d", fontWeight: "bold", textDecoration: "none" }} href="/dealer">Privacy Policy</a>
+          <a className="me-5" style={{ fontSize: "14px", color: "#4d4d4d", fontWeight: "bold", textDecoration: "none" }} href="/dealer">Contact Us</a>
         </div>
       </div>
     </>

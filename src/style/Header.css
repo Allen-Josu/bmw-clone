@@ -1,0 +1,23 @@
+.Navbar {
+    width: 90%;
+    height: 10vh;
+}
+
+.links,
+.Navbar-link {
+    text-decoration: none;
+    color: black;
+}
+.Navbar-link {
+    font-weight: 700;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Navbar-link:hover {
+    border-bottom: 4px solid rgb(0, 102, 179);
+}
