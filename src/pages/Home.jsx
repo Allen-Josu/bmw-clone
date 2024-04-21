@@ -4,6 +4,7 @@ import "../style/Style.css"
 import Find_New_car from "../assets/NxW_Home_ICON_STOCK_CAR.png"
 import bookTestDrive from "../assets/Book_a_Test_Drive.png"
 import Build_Your_Car from "../assets/Build_Your_Own_Car.png"
+import Discription from "../components/Discription"
 
 function Home() {
   return (
@@ -35,6 +36,11 @@ function Home() {
           <Col md={1}></Col>
         </Row>
       </div>
+
+      {/* Discription */}
+      <Discription props="ix" />
+      <Discription props="offer" />
+
 
     </>
   )
