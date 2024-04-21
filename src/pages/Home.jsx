@@ -11,10 +11,10 @@ function Home() {
     <>
       <Banner />
       {/* Tools */}
-      <div>
+      <div className="mt-4">
         <p className="text-center" style={{ color: "#666666", fontSize: "22px", textTransform: "uppercase" }}>Shopping Tools</p>
         <p className="text-center" style={{ color: "#262626", fontSize: "32px", fontWeight: "500", textTransform: "uppercase" }}>Find your BMW</p>
-        <Row>
+        <Row >
           <Col md={1}></Col>
           <Col md={3} className="d-flex flex-column justify-content-center align-items-center">
             <img src={`${Find_New_car}`} height="150px" alt="search-image" />
@@ -38,8 +38,11 @@ function Home() {
       </div>
 
       {/* Discription */}
-      <Discription props="ix" />
-      <Discription props="offer" />
+      <div className="mt-3">
+        <Discription props="ix" />
+        <Discription props="offer" />
+      </div>
+
 
 
     </>

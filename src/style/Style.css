@@ -16,15 +16,16 @@
     align-items: center;
     margin-left: 20px;
     margin-right: 20px;
+    color: white;
 }
 
 .Navbar-link:hover {
     border-bottom: 4px solid rgb(0, 102, 179);
 }
 
-.Banner-image{
-    background-image: "../assets/BMW iX (i20).png";
-    height: 100vh ;
+.Banner-image {
+    background-image: url(/src/assets/Background_banner.png);
+    height: 100vh;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
