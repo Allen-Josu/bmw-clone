@@ -21,3 +21,10 @@
 .Navbar-link:hover {
     border-bottom: 4px solid rgb(0, 102, 179);
 }
+
+.Banner-image{
+    background-image: "../assets/BMW iX (i20).png";
+    height: 100vh ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

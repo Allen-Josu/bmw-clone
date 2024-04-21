@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import "../style/Header.css"
+import "../style/Style.css"
 import logo from "../assets/BMW Logo 1.png"
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 // import { faCartShopping } from "@fortawesome/free-solid-svg-icons"
