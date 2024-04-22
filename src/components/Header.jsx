@@ -8,7 +8,7 @@ function Header() {
         <div className="d-flex justify-content-center" >
             <div className="d-flex justify-content-between align-items-center Navbar " style={{ borderBottom: "1px solid black" }}>
                 <div className="d-flex align-items-center " >
-                    <Link to={"/"}> <img src={logo} width="50px" alt="BML-Logo" /></Link>
+                    <Link to={"/"}> <img src={logo} width="50px" alt="BMW-Logo" /></Link>
                     <Link className="Navbar-link">Modals</Link>
                     <Link className="Navbar-link  ">Electric</Link>
                     <Link className="Navbar-link  ">Configerator</Link>
@@ -20,7 +20,6 @@ function Header() {
                     <Link className="Navbar-link">Map</Link>
                     <Link className="Navbar-link">Search</Link>
                 </div>
-
             </div>
         </div>
     )

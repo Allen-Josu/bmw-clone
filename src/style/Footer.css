@@ -1,0 +1,9 @@
+@media only screen and (max-width: 768px) {
+    .Footer-Links {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .Footer-Legal {
+        flex-wrap: wrap;
+    }
+}
